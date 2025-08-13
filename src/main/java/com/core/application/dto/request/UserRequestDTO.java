@@ -1,0 +1,17 @@
+package com.core.application.dto.request;
+
+
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@NoArgsConstructor
+public class UserRequestDTO {
+
+
+    private String name;
+    private String email;
+
+
+
+}
